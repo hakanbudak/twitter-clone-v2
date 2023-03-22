@@ -24,12 +24,12 @@
   <div class="flex flex-col-reverse">
     <div v-for="tweet in tweets" class="w-full p-4 border-b hover:bg-lighter flex flex-wrap sm:flex-no-wrap">
       <div class="flex-none mr-4">
-        <img src="src/assets/images/ecem.jpeg" class="h-12 w-12 rounded-full flex-none"/>
+       <IconUser />
       </div>
       <div class="w-full">
         <div class="flex items-center w-full">
-          <p class="font-semibold"> Ecem Yıldız </p>
-          <p class="text-sm text-dark ml-2"> @ecem </p>
+          <p class="font-semibold"> Hakan Budak </p>
+          <p class="text-sm text-dark ml-2"> @Hakan </p>
           <p class="text-sm text-dark ml-2"> 1 sec </p>
           <IconAbout />
         </div>
@@ -47,7 +47,7 @@
           </div>
           <div class="flex items-center text-sm text-dark">
             <IconHeart />
-            <p> 6M </p>
+            <p> 70M </p>
           </div>
           <div class="flex items-center text-sm text-dark">
             <IconShare />
@@ -106,9 +106,11 @@ import IconHeart from "@/components/icons/IconHeart.vue";
 import IconIstatistic from "@/components/icons/IconIstatistic.vue";
 import IconShare from "@/components/icons/IconShare.vue";
 import IconAbout from "@/components/icons/IconAbout.vue";
+import IconUser from "@/components/icons/IconUser.vue";
 export default {
   name: 'App',
   components: {
+    IconUser,
     IconAbout,
     IconShare,
     IconIstatistic,
@@ -119,14 +121,13 @@ export default {
   data() {
     return {
       following: [
-        {src: 'src/assets/images/hakan.jpeg', name: 'Hakan Budak', handle: '@hakan', time: '1 hr', tweet: '"Çanakkale Zaferi, Türk askerinin ruh kudretini gösteren şayanı hayret ve tebrik bir misaldir. Emin olmalısınız ki, Çanakkale muharebelerini kazandıran bu yüksek ruhtur."' +
-              'M.Kemal ATATÜRK', comments: '1,000', retweets: '100M', like: '59M'},
+        {src: 'src/assets/images/ecem.jpeg', name: 'Ecem Yıldız', handle: '@ecem', time: '1 hr', tweet: '" If you need blood, say you vomited and drank bloody mary, but we still wont give anyone a trump card"', comments: '1,000', retweets: '100M', like: '59M'},
         {src: 'src/assets/images/abdullah.jpeg', name: 'Abdullah Külcü', handle: '@abdullah', time: '1.2 hr', tweet: 'Looking for new technologies', comments: '2,030', retweets: '50', like: '3M'},
         {src: 'src/assets/images/emrehan.jpeg', name: 'Emrehan Aydin', handle: '@emrehan', time: '1.8 hr', tweet: 'Haha just made a flame thrower. Shld I sell them?', comments: '100,000', retweets: '1M', like: '5,000,003'},
         {src: 'src/assets/images/mustafa.jpeg', name: 'Mustafa Dalga', handle: '@mustafa', time: '12 hr', tweet: 'Whatever you do. do your best', comments: '100,500', retweets: '12M', like: '5M'}
       ],
       tweets: [
-        {content: 'If you need blood, say you vomited and drank bloody mary, but we still wont give anyone a trump card'}
+        {content: 'Çanakkale Zaferi, Türk askerinin ruh kudretini gösteren şayanı hayret ve tebrik bir misaldir. Emin olmalısınız ki, Çanakkale muharebelerini kazandıran bu yüksek ruhtur.'}
       ],
       tweet: {content: ''}
     }
