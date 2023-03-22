@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="d3c6cc25-62f9-4f0f-9bdc-db665a90e0a2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/index-0225b2ab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/abdullah.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/ecem.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/emrehan.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/hakan.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/mustafa.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/dashboard/twitter-post-menu/CreatePostItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/twitter-post-menu/CreatePostItem.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2NMlXaJm6JOco2ZrBSK6DBk3QGd" />
   <component name="ProjectViewState">
@@ -34,6 +44,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679481871404</updated>
       <workItem from="1679481872734" duration="80000" />
-      <workItem from="1679482680262" duration="3289000" />
+      <workItem from="1679482680262" duration="8188000" />
     </task>
     <servers />
   </component>

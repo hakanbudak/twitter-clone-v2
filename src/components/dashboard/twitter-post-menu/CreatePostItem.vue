@@ -121,10 +121,10 @@ export default {
   data() {
     return {
       following: [
-        {src: 'src/assets/images/ecem.jpeg', name: 'Ecem Yıldız', handle: '@ecem', time: '1 hr', tweet: '" If you need blood, say you vomited and drank bloody mary, but we still wont give anyone a trump card"', comments: '1,000', retweets: '100M', like: '59M'},
-        {src: 'src/assets/images/abdullah.jpeg', name: 'Abdullah Külcü', handle: '@abdullah', time: '1.2 hr', tweet: 'Looking for new technologies', comments: '2,030', retweets: '50', like: '3M'},
-        {src: 'src/assets/images/emrehan.jpeg', name: 'Emrehan Aydin', handle: '@emrehan', time: '1.8 hr', tweet: 'Haha just made a flame thrower. Shld I sell them?', comments: '100,000', retweets: '1M', like: '5,000,003'},
-        {src: 'src/assets/images/mustafa.jpeg', name: 'Mustafa Dalga', handle: '@mustafa', time: '12 hr', tweet: 'Whatever you do. do your best', comments: '100,500', retweets: '12M', like: '5M'}
+        {src: 'src/assets/images/ecem.svg', name: 'Ecem Yıldız', handle: '@ecem', time: '1 hr', tweet: '" If you need blood, say you vomited and drank bloody mary, but we still wont give anyone a trump card"', comments: '1,000', retweets: '100M', like: '59M'},
+        {src: 'src/assets/images/abdullah.svg', name: 'Abdullah Külcü', handle: '@abdullah', time: '1.2 hr', tweet: 'Looking for new technologies', comments: '2,030', retweets: '50', like: '3M'},
+        {src: 'src/assets/images/emrehan.svg', name: 'Emrehan Aydin', handle: '@emrehan', time: '1.8 hr', tweet: 'Haha just made a flame thrower. Shld I sell them?', comments: '100,000', retweets: '1M', like: '5,000,003'},
+        {src: 'src/assets/images/mustafa.svg', name: 'Mustafa Dalga', handle: '@mustafa', time: '12 hr', tweet: 'Whatever you do. do your best', comments: '100,500', retweets: '12M', like: '5M'}
       ],
       tweets: [
         {content: 'Çanakkale Zaferi, Türk askerinin ruh kudretini gösteren şayanı hayret ve tebrik bir misaldir. Emin olmalısınız ki, Çanakkale muharebelerini kazandıran bu yüksek ruhtur.'}
