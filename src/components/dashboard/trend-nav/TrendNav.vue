@@ -1,5 +1,5 @@
 <template>
-  <div class="md:block hidden w-1/3 h-full border-l border-lighter py-2 px-12 overflow-y-scroll relative">
+  <div class="lg:block hidden w-1/3 h-full border-l border-lighter py-2 px-12 overflow-y-scroll relative">
     <SearchBar />
     <TrendNavItem />
   </div>

@@ -1,7 +1,7 @@
 <template>
   <div id="App">
     <button v-for="tab in tabs" @click="id = tab.id" :class="`focus:outline-none  hover:bg-gray-200 flex items-center py-2 px-4 hover:bg-lightblue rounded-full mr-auto mb-3 ${ id === tab.id ? 'text-light-blue-500' : ''}`">
-      <font-awesome-icon :icon="`${ tab.icon }`"></font-awesome-icon>
+      <font-awesome-icon :icon="`${ tab.icon }`" :size="'xl'"></font-awesome-icon>
       <p class="text-lg font-semibold text-left pl-2 hidden lg:block"> {{ tab.title }} </p>
     </button>
   </div>
@@ -22,7 +22,7 @@ export default {
   data() {
     return {
       tabs: [
-        {icon: 'fa-solid fa-house', title: 'Home', id: 'home'},
+        {icon: 'fa-solid fa-house fa-10x', title: 'Home', id: 'home'},
         {icon: 'fa-solid fa-hashtag', title: 'Explore', id: 'explore'},
         {icon: 'fa-solid fa-bell', title: 'Notifications', id: 'notifications'},
         {icon: 'fa-solid fa-envelope', title: 'Messages', id: 'messages'},

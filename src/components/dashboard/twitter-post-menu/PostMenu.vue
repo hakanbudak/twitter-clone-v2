@@ -1,5 +1,5 @@
 <template>
-  <div class="w-1/2 h-full overflow-y-scroll">
+  <div class="lg:w-1/2 h-full overflow-y-scroll border-r">
     <CreatePostItem />
   </div>
 

@@ -1,8 +1,13 @@
 <template>
-  <div class="px-5 py-3 border-b border-lighter flex flex-wrap items-center justify-between sm:flex-no-wrap">
+  <div class=" lg:border-l px-5 py-3 order-lighter flex flex-wrap items-center justify-between sm:flex-no-wrap">
     <h1 class="text-xl font-bold">Home</h1>
+
+  <div class="grid grid-cols-2  text-center w-full">
+    <button class="text-md font-bold hover:bg-gray-200 ">Size özel</button>
+    <button class="text-md font-bold pb-4 pt-4 hover:bg-gray-200">Takip edilenler</button>
   </div>
-  <div class="px-5 py-3 border-b-8 border-lighter flex flex-wrap sm:flex-no-wrap">
+  </div>
+  <div class="px-5 py-3 border-b-8 border-lighter flex flex-wrap sm:flex-no-wrap border-t">
     <div class="flex-none ">
       <IconUserHome />
     </div>
@@ -16,7 +21,7 @@
         <IconCalendar />
         <IconMap />
       </div>
-      <button class="md:block hidden h-10 px-4 text-white font-semibold bg-light-blue-500 hover:bg-darkblue focus:outline-none rounded-full absolute bottom-0 right-0">
+      <button class="lg:border-l h-10 px-4 text-white font-semibold bg-light-blue-500 hover:bg-darkblue focus:outline-none rounded-full absolute bottom-0 right-0">
         Tweet
       </button>
     </form>
@@ -124,7 +129,9 @@ export default {
         {src: 'src/assets/images/ecem.svg', name: 'Ecem Yıldız', handle: '@ecem', time: '1 hr', tweet: '" If you need blood, say you vomited and drank bloody mary, but we still wont give anyone a trump card"', comments: '1,000', retweets: '100M', like: '59M'},
         {src: 'src/assets/images/abdullah.svg', name: 'Abdullah Külcü', handle: '@abdullah', time: '1.2 hr', tweet: 'Looking for new technologies', comments: '2,030', retweets: '50', like: '3M'},
         {src: 'src/assets/images/emrehan.svg', name: 'Emrehan Aydin', handle: '@emrehan', time: '1.8 hr', tweet: 'Haha just made a flame thrower. Shld I sell them?', comments: '100,000', retweets: '1M', like: '5,000,003'},
-        {src: 'src/assets/images/mustafa.svg', name: 'Mustafa Dalga', handle: '@mustafa', time: '12 hr', tweet: 'Whatever you do. do your best', comments: '100,500', retweets: '12M', like: '5M'}
+        {src: 'src/assets/images/mustafa.svg', name: 'Mustafa Dalga', handle: '@mustafa', time: '12 hr', tweet: 'Whatever you do. do your best', comments: '100,500', retweets: '12M', like: '5M'},
+        {src: 'src/assets/images/ece.jpeg', name: 'Ece Kürüm', handle: '@ece', time: '17 hr', tweet: 'Whatever', comments: '3K', retweets: '2K', like: '8M'}
+
       ],
       tweets: [
         {content: 'Çanakkale Zaferi, Türk askerinin ruh kudretini gösteren şayanı hayret ve tebrik bir misaldir. Emin olmalısınız ki, Çanakkale muharebelerini kazandıran bu yüksek ruhtur.'}
