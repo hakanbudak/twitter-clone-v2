@@ -130,7 +130,7 @@ export default {
         {src: 'src/assets/images/abdullah.svg', name: 'Abdullah Külcü', handle: '@abdullah', time: '1.2 hr', tweet: 'Looking for new technologies', comments: '2,030', retweets: '50', like: '3M'},
         {src: 'src/assets/images/emrehan.svg', name: 'Emrehan Aydin', handle: '@emrehan', time: '1.8 hr', tweet: 'Haha just made a flame thrower. Shld I sell them?', comments: '100,000', retweets: '1M', like: '5,000,003'},
         {src: 'src/assets/images/mustafa.svg', name: 'Mustafa Dalga', handle: '@mustafa', time: '12 hr', tweet: 'Whatever you do. do your best', comments: '100,500', retweets: '12M', like: '5M'},
-        {src: 'src/ece.jpeg', name: 'Ece Kürüm', handle: '@ece', time: '17 hr', tweet: 'Whatever', comments: '3K', retweets: '2K', like: '8M'}
+        {src: './ece.jpeg', name: 'Ece Kürüm', handle: '@ece', time: '17 hr', tweet: 'Whatever', comments: '3K', retweets: '2K', like: '8M'}
 
       ],
       tweets: [
