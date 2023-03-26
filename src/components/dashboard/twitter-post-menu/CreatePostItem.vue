@@ -126,15 +126,23 @@ export default {
   data() {
     return {
       following: [
-        {src: 'src/assets/images/ecem.svg', name: 'Ecem Yıldız', handle: '@ecem', time: '1 hr', tweet: '" If you need blood, say you vomited and drank bloody mary, but we still wont give anyone a trump card"', comments: '1,000', retweets: '100M', like: '59M'},
-        {src: 'src/assets/images/abdullah.svg', name: 'Abdullah Külcü', handle: '@abdullah', time: '1.2 hr', tweet: 'Looking for new technologies', comments: '2,030', retweets: '50', like: '3M'},
-        {src: 'src/assets/images/emrehan.svg', name: 'Emrehan Aydin', handle: '@emrehan', time: '1.8 hr', tweet: 'Haha just made a flame thrower. Shld I sell them?', comments: '100,000', retweets: '1M', like: '5,000,003'},
-        {src: 'src/assets/images/mustafa.svg', name: 'Mustafa Dalga', handle: '@mustafa', time: '12 hr', tweet: 'Whatever you do. do your best', comments: '100,500', retweets: '12M', like: '5M'},
-        {src: 'public/ece.jpeg', name: 'Ece Kürüm', handle: '@ece', time: '17 hr', tweet: 'Whatever', comments: '3K', retweets: '2K', like: '8M'}
-
+        {src: 'images/ecem.jpeg', name: 'Ecem Yıldız', handle: '@ecem', time: '1 hr', tweet: '" If necessary, we will vomit blood and say I drank Bloody Mary, but we will not give a trump card to anyones hand."', comments: '1,000', retweets: '100M', like: '59M'},
+        {src: 'images/abdullah.jpeg', name: 'Abdullah Külcü', handle: '@abdullah', time: '1.2 hr', tweet: 'Looking for new technologies', comments: '2,030', retweets: '50K', like: '12M'},
+        {src: 'images/emrehan.jpeg', name: 'Emrehan Aydin', handle: '@emrehan', time: '1.8 hr', tweet: 'Haha just made a flame thrower. Shld I sell them?', comments: '100,000', retweets: '1M', like: '5M'},
+        {src: 'images/mustafa.jpeg', name: 'Mustafa Dalga', handle: '@mustafa', time: '12 hr', tweet: 'Whatever you do. do your best', comments: '100,500', retweets: '12M', like: '5M'},
+        {src: 'images/ılterıs.jpeg', name: 'İlteriş Kesin', handle: '@ilteris', time: '13 hr', tweet: '4 days a week should be', comments: '130K', retweets: '10M', like: '19M'},
+        {src: 'images/ece.jpeg', name: 'Ece Kürüm', handle: '@ece', time: '17 hr', tweet: 'Whatever', comments: '3K', retweets: '2K', like: '8M'},
+        {src: 'images/mali.jpeg', name: 'Mehmet Ali Sagırogulları', handle: '@mali', time: '18 hr', tweet: 'The prayer of going to the international lines amen', comments: '33K', retweets: '138K', like: '23M'},
+        {src: 'images/oguz.png', name: 'Oguz Kaan Ercan', handle: '@oguz', time: '18 hr', tweet: 'How to become a lawyer', comments: '3K', retweets: '123K', like: '21M'},
+        {src: 'images/gul.png', name: 'Gul Donat', handle: '@gül', time: '19 hr', tweet: 'I am extremely glad that I was born: I love your land, your light, your fight and your bread.', comments: '32K', retweets: '13K', like: '24M'},
+        {src: 'images/ersin.png', name: 'Ersin Şenel', handle: '@ersin', time: '19 hr', tweet: 'geezer. Im getting older. Im so bored of this', comments: '32K', retweets: '13K', like: '24M'},
+        {src: 'images/ıbrahım.png', name: 'İbrahim Küçükömürcü', handle: '@İbrahim', time: '20 hr', tweet: 'Fifty if i turn my hand', comments: '31K', retweets: '20K', like: '11M'},
+        {src: 'images/beyza.jpeg', name: 'Beyza Yıldırım', handle: '@Beyza', time: '24 hr', tweet: 'Distance is not an obstacle to love', comments: '1.139,6K', retweets: '20K', like: '8M'}
       ],
       tweets: [
-        {content: 'Çanakkale Zaferi, Türk askerinin ruh kudretini gösteren şayanı hayret ve tebrik bir misaldir. Emin olmalısınız ki, Çanakkale muharebelerini kazandıran bu yüksek ruhtur.'}
+        {content: 'Dünyanın en eski spoiler\'ı, 88 sene önce, Mustafa Kemal Atatürk tarafından verilmiştir:\n' +
+              '\n' +
+              '“Çalışmadan, yorulmadan ve üretmeden, rahat yaşamak isteyen toplumlar; evvela haysiyetlerini, sonra hürriyetlerini daha sonra da istiklal ve istikballerini kaybetmeye mahkumdurlar”'}
       ],
       tweet: {content: ''}
     }
