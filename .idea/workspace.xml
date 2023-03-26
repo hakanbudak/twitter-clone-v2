@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3c6cc25-62f9-4f0f-9bdc-db665a90e0a2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ece.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/ece.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/abdullah.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/ecem.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/emrehan.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/mustafa.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dashboard/twitter-post-menu/CreatePostItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/twitter-post-menu/CreatePostItem.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +60,7 @@
       <workItem from="1679481872734" duration="80000" />
       <workItem from="1679482680262" duration="10723000" />
       <workItem from="1679517750850" duration="3487000" />
-      <workItem from="1679748942023" duration="16227000" />
+      <workItem from="1679748942023" duration="18204000" />
     </task>
     <servers />
   </component>
