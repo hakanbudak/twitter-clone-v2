@@ -6,6 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="d3c6cc25-62f9-4f0f-9bdc-db665a90e0a2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/abdullah.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/abdullah.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/beyza.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/beyza.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/ece.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/ece.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/ecem.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/ecem.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/emrehan.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/emrehan.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/ersin.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/ersin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gul.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/gul.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/mali.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/mali.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/mustafa.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/mustafa.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/oguz.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/oguz.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/ıbrahım.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/ıbrahım.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/ılterıs.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/ılterıs.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dashboard/twitter-post-menu/CreatePostItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/twitter-post-menu/CreatePostItem.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +55,11 @@
       <recent name="$PROJECT_DIR$/dist/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/assets/images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -64,6 +77,7 @@
       <workItem from="1679859588435" duration="1507000" />
       <workItem from="1679861831637" duration="152000" />
       <workItem from="1679863104114" duration="1212000" />
+      <workItem from="1680007177375" duration="3317000" />
     </task>
     <servers />
   </component>
