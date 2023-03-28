@@ -1,7 +1,7 @@
 
 
 <template>
-    <div class="flex container h-screen w-full">
+    <div class="flex container h-screen w-full m-auto">
       <SideBar />
       <PostMenu />
       <TrendNav />
